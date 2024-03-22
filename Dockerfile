@@ -1,4 +1,4 @@
-FROM ghcr.io/csunibo/statik:latest as statik
+FROM ghcr.io/csunibo/statik:fix-mode-time-dir as statik
 
 FROM alpine
 RUN apk add --no-cache tectonic libreoffice pandoc ruby xournalpp git git-lfs
